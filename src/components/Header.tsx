@@ -17,7 +17,7 @@ const Header: React.FC = () => {
 
   const Logo = () => (
     <div className={`text-2xl font-bold transition-colors duration-300 ${isScrolled ? 'text-possible-green' : 'text-white'}`}>
-      Fitness Bull
+      FitBullz
     </div>
   );
 
