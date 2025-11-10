@@ -1,13 +1,12 @@
 {
   "name": "FitBullz",
   "private": true,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "scripts": {
-    "release": "standard-version --release-as patch",
-    "prebuild": "node scripts/set-version.js",
+    "prebuild": "node scripts/prebuild.js",
+    "build": "vite build",
     "dev": "vite",
-    "build": "npm run release && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
