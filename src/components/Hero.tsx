@@ -9,12 +9,17 @@ const Hero: React.FC = () => {
       <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 flex flex-col lg:flex-row items-center">
         {/* Left Content */}
         <div className="lg:w-1/2 text-center lg:text-left mb-12 lg:mb-0">
-          <h1 className="text-4xl md:text-6xl font-bold leading-tight drop-shadow-lg">
+          <div>
+            <h1 className="text-4xl md:text-6xl font-bold leading-tight drop-shadow-lg">
             Stop dieting, <br /> Start eating right
           </h1>
           <p className="mt-4 text-lg md:text-xl max-w-lg mx-auto lg:mx-0 drop-shadow-md">
             India's most loved nutrition-based healthcare company. Let's make health possible, together.
           </p>
+          </div>
+          <div className="py-4 mt-6 inline-block ">
+           <Button className="w-full bg-brand-red hover:bg-brand-black">Book Free Consultation</Button>
+          </div>
         </div>
 
         {/* Right Form */}

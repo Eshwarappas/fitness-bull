@@ -64,7 +64,8 @@ const Footer: React.FC = () => {
 
         </div>
         <div className="mt-8 pt-8 border-t border-gray-700 text-center text-gray-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} Possible. All rights reserved. Clone created for educational purposes.</p>
+          <p> <span>Version: {__APP_VERSION__}</span> &copy; {new Date().getFullYear()} Possible. All rights reserved. Clone created for educational purposes.</p>
+        {/* <p><span> Version: {import.meta.env.VITE_APP_VERSION}</span> &copy; {new Date().getFullYear()} Possible. All rights reserved. Clone created for educational purposes.</p> */}
         </div>
       </div>
     </footer>
