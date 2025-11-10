@@ -2,7 +2,7 @@
 export const NAV_LINKS = [
   { name: 'For Weight Loss', href: '#' },
   { name: 'For Diabetes', href: '#' },
-  { name: 'For PCOS', href: '#' },
+  // { name: 'For PCOS', href: '#' },
   { name: 'Healthpedia', href: '#' },
 ];
 
